@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 50%;
+    height: 50%;
+    background-color: aqua;
+    
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.principal{
+ border: 3px solid black;
+ display: flex;
+ width: 100%;
+ height: 100;
+ display: flex;
+
+}
+
+
+#colums{
+    border: 2px solid orange;
+    width: 50%;
+}
+
+
+#div2{
+    border: 2px solid red;
+    display: inline;
+    width: 50%;
+    
+}
+
+#Linha2{
+  border: 3px solid green;
+  width: 100%;
+  height: 200px;
+  position: relative;
+}
+
+.bloc3{
+  border: 3px solid purple;
+  font-weight: bold;
+  font-size: 20px;
+  height: 90px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 3px;
+  right: 3px;
+}
